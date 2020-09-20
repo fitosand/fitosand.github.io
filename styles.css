@@ -238,7 +238,7 @@
   
   /* bootstrap image edit */
   .card-img-top{
-      height: 135px;
+      min-height: 135px;
   }
 
   /* bootstrap text styling */
@@ -246,6 +246,11 @@
     font-size:10px;
   }
   
+
+  /* Use Media Query to add a breakpoint at 800px: */
+@media screen and (max-width:800px) {
+  #logo {width:50%;}
+}
   
   
   
