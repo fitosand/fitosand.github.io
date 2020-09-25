@@ -81,7 +81,14 @@
   
   .card{
     //background-color:gray;
+    margin-top:20px;
+    margin-bottom:20px;
   }
+
+  .card-img-top {
+    height: 170px;
+    max-width: 100%;
+}
   
   .card:hover{
     opacity:0.8;
@@ -250,6 +257,10 @@
   /* Use Media Query to add a breakpoint at 800px: */
 @media screen and (max-width:800px) {
   #logo {width:50%;}
+
+  .card-img-top{
+    height: 100%;
+  }
 }
   
   
